@@ -1,7 +1,9 @@
 // Cache name
 const CACHE_NAME = "pwa-sample-caches-v1";
 // Cache targets
-const urlsToCache = ["./"];
+const urlsToCache = [
+    "https://negitoro2007.github.io/WebPWATest/images/web2app.png",
+];
 
 self.addEventListener("install", (event) => {
     event.waitUntil(
