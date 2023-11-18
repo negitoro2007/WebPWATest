@@ -1,0 +1,14 @@
+.full {
+    height: 100svh;
+    width: 100%;
+}
+html {
+    height: 100svh;
+}
+body {
+    min-height: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+    margin: 0px;
+    overflow: hidden;
+}
