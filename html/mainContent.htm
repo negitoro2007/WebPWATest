@@ -6,19 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link id="fa" rel="SHORTCUT ICON" href="favicon.ico" type="image/vnd.microsoft.icon">
     <!--<link rel="manifest" id="my-manifest" /><!--- href="./manifest.json">-->
-    <link rel="manifest" id="my-manifest" href="./manifest.json" />
+    <link rel="manifest" id="my-manifest" href="../manifest.json" />
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <script src="code.js"></script>
-    <script src="manifest.js"></script>
-    \
+    <script src="../scrpits/code.js"></script>
+    <script src="../scrpits/manifest.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('./sw.js').then(registration => {
+            navigator.serviceWorker.register('../scrpits/sw.js').then(registration => {
                 console.log('ServiceWorker registration successful.');
             }).catch(err => {
                 console.log('ServiceWorker registration failed.');
