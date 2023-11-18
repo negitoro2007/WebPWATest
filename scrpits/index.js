@@ -4,7 +4,7 @@ function eventRegistration() {
     console.log(bt, tb);
     bt.addEventListener("click", () => {
         location.href =
-            "https://negitoro2007.github.io/WebPWATest/html/mainContent.htm?url=" +
+            "https://negitoro2007.github.io/WebPWATest/html/mainContent.html?url=" +
             tb.value;
         console.log("clock");
     });
