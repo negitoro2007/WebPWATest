@@ -20,6 +20,7 @@ function set(name, img) {
         ],
     };
     manifest.name = name;
+    short_name = name;
     manifest.icons[0].src = img;
     manifest.start_url = data;
     const stringManifest = JSON.stringify(manifest);
