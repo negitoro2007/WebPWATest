@@ -3,7 +3,7 @@ function eventRegistration() {
     let bt = document.getElementById("go");
     console.log(bt, tb);
     bt.addEventListener("click", () => {
-        location.href = "./html/mainContent.htm?url=" + tb.value;
+        location.href = "../html/mainContent.htm?url=" + tb.value;
         console.log("clock");
     });
 }
